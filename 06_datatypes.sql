@@ -4,7 +4,7 @@ use sql_basics;
 
 create table data_types(
     DATATYPE varchar(20) PRIMARY KEY,
-    USAGE varchar(20) NOT NULL
+    USAGEE varchar(20) NOT NULL
 );
 
 INSERT INTO data_types values("VARCHAR","VARCHAR(50)");
