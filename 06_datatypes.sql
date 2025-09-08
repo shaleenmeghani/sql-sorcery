@@ -7,17 +7,18 @@ create table data_types(
     USAGEE varchar(20) NOT NULL
 );
 
-INSERT INTO data_types values("VARCHAR","VARCHAR(50)");
-INSERT INTO data_types values("CHAR","CHAR(50)");
-INSERT INTO data_types values("BLOB","BLOB(1000)");
-INSERT INTO data_types values("INT","INT");
-INSERT INTO data_types values("BIGINT","BIGINT");
-INSERT INTO data_types values("TINYINT","TINYINT");
-INSERT INTO data_types values("BIT","BIT(2)");
-INSERT INTO data_types values("FLOAT","FLOAT");
-INSERT INTO data_types values("DOUBLE","DOUBLE");
-INSERT INTO data_types values("BOOLEAN","BOOLEAN");
-INSERT INTO data_types values("YEAR","YEAR");
-INSERT INTO data_types values("DATE","DATE");
+INSERT INTO data_types values
+("VARCHAR","VARCHAR(50)"),
+("CHAR","CHAR(50)"),
+("BLOB","BLOB(1000)"),
+("INT","INT"),
+("BIGINT","BIGINT"),
+("TINYINT","TINYINT"),
+("BIT","BIT(2)"),
+("FLOAT","FLOAT"),
+("DOUBLE","DOUBLE"),
+("BOOLEAN","BOOLEAN"),
+("YEAR","YEAR"),
+("DATE","DATE");
 
 select * from data_types;
